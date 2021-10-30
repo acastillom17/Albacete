@@ -1,0 +1,208 @@
+.login-overlay .panel-body{
+    min-height: 244px;
+}
+.has-feedback{
+    position: relative;
+}
+.form-control-feedback{
+    right: 10px;
+    left: auto;
+    top: 10px;
+    position: absolute;
+}
+.login-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-login {
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+
+}
+.bienvenida{
+    color:white;
+    font-weight: bold;
+}
+.buttons-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blue-gradient-bg{
+    height: 100vh;
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #3ac1ff);
+}
+
+.ptb-100 {
+    padding-top: 100px !important;
+    padding-bottom: 300px !important;
+}
+
+.mt-30 {
+    margin-top: 30px !important;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
+
+.ps-btn,
+button.ps-btn {
+    display: inline-block;
+    padding: 15px 45px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #000000;
+    border: none;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: #bdbdbd;
+    transition: all 0.4s ease;
+    cursor: pointer;
+
+
+    &--fullwidth {
+        width: 100%;
+        text-align: center;
+
+        &:hover {
+            color: #fff;
+            background-color: rgb(0, 0, 0);;
+        }
+       
+    }
+
+    &--large {
+        width: 30%;
+        text-align: center;
+    }
+
+    &--sm {
+        padding: 0.5rem 2rem;
+        font-size: 1.2rem;
+
+    }
+
+    &--lg {
+        padding: 1.5rem 4rem;
+    }
+
+    &--xl {
+        padding: 2rem 6rem;
+        font-size: 1.6rem;
+    }
+
+    &.ps-btn--gray {
+        background-color: #e5e5e5;
+        color: #000000;
+        font-size: 1.6rem;
+    }
+
+
+
+
+    &:active {
+        background-color: #222;
+        color: #fff;
+
+        &.ps-btn--black {
+            background-color: #000000;
+        }
+    }
+}
+
+//other font
+
+.register-photo {
+    background: #f1f1f1;
+    padding: 100px 0
+}
+
+
+.register-photo .image-holder {
+    display: table-cell;
+    width: 50%;
+    background: url('../../../../../assets/img/login.png');
+    background-size:cover
+}
+
+.register-photo .form-container {
+    display: table;
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1)
+}
+
+.register-photo form {
+    display: table-cell;
+    width: 500px;
+    height: 500px;
+    background-color: #ffffff;
+    padding: 40px 60px;
+    color: #505e6c
+}
+
+@media screen and (min-width: 0px) and (max-width: 1200px) {
+    #image-login { display: none; }  /* show it on small screens */
+  }
+
+.register-photo form h2 {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 30px
+}
+
+.register-photo form .form-control {
+    background: transparent;
+    border: 1px solid #d1d1d1;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 0px;
+    height: 40px
+}
+
+.register-photo form .form-check {
+    font-size: 13px;
+    line-height: 20px
+}
+
+.register-photo form .btn-primary {
+    background: green;
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    box-shadow: none;
+    margin-top: 35px;
+    text-shadow: none;
+    outline: none !important
+}
+
+.register-photo form .btn-primary:hover,
+.register-photo form .btn-primary:active {
+    background: green
+}
+
+.register-photo form .btn-primary:active {
+    transform: translateY(1px)
+}
+
+.register-photo form .already {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+    opacity: 0.9;
+    text-decoration: none
+}

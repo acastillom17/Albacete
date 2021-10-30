@@ -1,0 +1,20 @@
+@keyframes bgColor {
+    0%{
+        background: #628CFF;
+    }
+    20%{
+        background: #3C70FF;
+    }
+    40%{
+        background: #0044FF;
+    }
+    60%{
+        background: #3C70FF;
+    }
+    80%{
+        background: #628CFF;
+    }
+    100%{
+        background: #6890FF;
+    }
+}

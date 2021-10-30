@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("./Montserrat-Bold.ttf") format("embedded-opentype");
+  src: url("./Montserrat-SemiBold.ttf") format("opentype");
+  font-weight: SemiBold;
+  font-style: normal;
+}
